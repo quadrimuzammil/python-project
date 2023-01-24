@@ -6,7 +6,7 @@ steps:
     args: ['build', '-t', 'gcr.io/${_PROJECT}/pyproject:${_VERSION}', '.']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', 'gcr.io/${_PROJECT}/pyproject:${_VERSION}']
+    args: ['push', 'gcr.io/${_PROJECT}/pyproject:${_VERSION}']
 
   - name: 'gcr.io/cloud-builders/gke-deploy'
     args: 
