@@ -23,9 +23,9 @@ substitutions:
    _REPO_NAME: github_masudd11_python-project
    _FILE_PATH: pyapp.yaml
    _LOCATION: us-central1-c
-   _IMAGE_NAME: gcr.io/devops-374607/pyproject
+   _IMAGE_NAME: gcr.io/devops-374608/pyproject
    _CLUSTER_NAME: best-cluster
-   _VERSION: v4.0
+   _VERSION: v5.0
 
 options:
     # substitutions_option: 'ALLOW_LOOSE'

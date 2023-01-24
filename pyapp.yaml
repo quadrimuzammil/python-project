@@ -28,7 +28,7 @@ spec:
 
       - name: pycontainer
 
-        image: gcr.io/devops-374607/pyproject:v4.0
+        image: gcr.io/devops-374608/pyproject:v5.0
 
         ports:
 
