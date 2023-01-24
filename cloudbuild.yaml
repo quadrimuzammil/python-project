@@ -1,9 +1,9 @@
 steps:
   - name: 'gcr.io/cloud-builders/git'
-    args: ['clone', 'https://source.developers.google.com/p/${_PROJECT_ID}/r/{_REPO_NAME}']
+    args: ['clone', 'https://source.developers.google.com/p/${_PROJECT}/r/{_REPO_NAME}']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/{_PROJECT_ID}/pyproject:${_VERSION}']
+    args: ['build', '-t', 'gcr.io/{_PROJECT}/pyproject:${_VERSION}']
 
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', 'gcr.io/{_PROJECT}/pyproject:${_VERSION}']
@@ -19,7 +19,7 @@ steps:
 images:
   - "${_IMAGE_NAME}:${_VERSION}"
 substitutions:
-   _PROJECT_ID: devops-374608
+   _PROJECT: devops-374608
    _REPO_NAME: github_masudd11_python-project
    _FILE_PATH: pyapp.yaml
    _LOCATION: us-central1-c
