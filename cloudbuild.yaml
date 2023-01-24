@@ -1,5 +1,5 @@
 steps:
-  - name: 'gcr.io/cloud-builder/git'
+  - name: 'gcr.io/cloud-builders/git'
     args: ['clone', 'https://source.developers.google.com/${_PROJECT_ID}/{_REPO_NAME}']
 
   - name: 'gcr.io/cloud-builders/docker'
