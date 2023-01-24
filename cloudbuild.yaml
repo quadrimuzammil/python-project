@@ -25,7 +25,7 @@ substitutions:
    _LOCATION: us-central1-c
    _IMAGE_NAME: gcr.io/devops-374607/pyproject
    _CLUSTER_NAME: best-cluster
-   _VERSION: v1.0
+   _VERSION: v2.0
 
 options:
     # substitutions_option: 'ALLOW_LOOSE'
