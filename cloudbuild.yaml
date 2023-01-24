@@ -28,5 +28,5 @@ substitutions:
    _VERSION: v1.0
 
 options:
-    substitutions_option: 'ALLOW_LOOSE'
+    # substitutions_option: 'ALLOW_LOOSE'
     logging: 'CLOUD_LOGGING_ONLY'
