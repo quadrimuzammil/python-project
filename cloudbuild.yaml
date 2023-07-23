@@ -22,7 +22,7 @@ substitutions:
    _PROJECT: git-jbash-123
    _REPO_NAME: python-project
    _FILE_PATH: pyapp.yaml
-   _LOCATION: us-central1-a
+   _LOCATION: 
    _IMAGE_NAME: gcr.io/git-jbash-123/pyproject
    _CLUSTER_NAME: cloudbuildcluster
    _VERSION: v8.0
