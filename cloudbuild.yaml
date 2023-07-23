@@ -19,12 +19,12 @@ steps:
 images:
   - "${_IMAGE_NAME}:${_VERSION}"
 substitutions:
-   _PROJECT: devops-374608
-   _REPO_NAME: github_masudd11_python-project
+   _PROJECT: git-jbash-123
+   _REPO_NAME: python-project
    _FILE_PATH: pyapp.yaml
-   _LOCATION: us-central1-c
-   _IMAGE_NAME: gcr.io/devops-374608/pyproject
-   _CLUSTER_NAME: best-cluster
+   _LOCATION: us-central1-a
+   _IMAGE_NAME: gcr.io/git-jbash-123/pyproject
+   _CLUSTER_NAME: cloudbuildcluster
    _VERSION: v8.0
 
 options:
